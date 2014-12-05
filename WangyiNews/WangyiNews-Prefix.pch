@@ -14,3 +14,15 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
 #endif
+#define iOS7Later ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0)
+#define myappcolor colorWithPatternImage:[UIImage imageNamed:@"标题栏6.png"]
+#define beijingcolor colorWithPatternImage:[UIImage imageNamed:@"背景.png"]
+
+#define IS_IPHONE5 [UIScreen mainScreen].bounds.size.height > 480.0f
+#define font(n) [UIFont systemFontOfSize:n]
+#define bold_font(n) [UIFont boldSystemFontOfSize:n]
+#define PI 3.14159265358979323846
+#define boundsheight [UIScreen mainScreen].bounds.size.height
+#define applicationheight [UIScreen mainScreen].applicationFrame.size.height
+#define applicationwidth [UIScreen mainScreen].applicationFrame.size.width
+#define widthRate [UIScreen mainScreen].applicationFrame.size.width/320.0f

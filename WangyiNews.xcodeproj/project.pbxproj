@@ -19,6 +19,28 @@
 		D206952F1A2F011400D2880D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D20695171A2F011400D2880D /* UIKit.framework */; };
 		D20695371A2F011400D2880D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D20695351A2F011400D2880D /* InfoPlist.strings */; };
 		D20695391A2F011400D2880D /* WangyiNewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D20695381A2F011400D2880D /* WangyiNewsTests.m */; };
+		D20695441A2F01D900D2880D /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D20695431A2F01D900D2880D /* NewsViewController.m */; };
+		D20695471A2F01F300D2880D /* SubcribeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D20695461A2F01F200D2880D /* SubcribeViewController.m */; };
+		D206954A1A2F022E00D2880D /* PictrueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D20695491A2F022E00D2880D /* PictrueViewController.m */; };
+		D206954D1A2F024700D2880D /* VedioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D206954C1A2F024700D2880D /* VedioViewController.m */; };
+		D20695501A2F027100D2880D /* RadioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D206954F1A2F027100D2880D /* RadioViewController.m */; };
+		D20695531A2F02D400D2880D /* MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = D20695521A2F02D400D2880D /* MenuView.m */; };
+		D206955D1A2F04F700D2880D /* 下箭头.png in Resources */ = {isa = PBXBuildFile; fileRef = D20695551A2F04F700D2880D /* 下箭头.png */; };
+		D206955E1A2F04F700D2880D /* 小箭头.png in Resources */ = {isa = PBXBuildFile; fileRef = D20695561A2F04F700D2880D /* 小箭头.png */; };
+		D206955F1A2F04F700D2880D /* 标题栏6.png in Resources */ = {isa = PBXBuildFile; fileRef = D20695571A2F04F700D2880D /* 标题栏6.png */; };
+		D20695601A2F04F700D2880D /* 标题栏7.png in Resources */ = {isa = PBXBuildFile; fileRef = D20695581A2F04F700D2880D /* 标题栏7.png */; };
+		D20695611A2F04F700D2880D /* 线.png in Resources */ = {isa = PBXBuildFile; fileRef = D20695591A2F04F700D2880D /* 线.png */; };
+		D20695621A2F04F700D2880D /* 背景.png in Resources */ = {isa = PBXBuildFile; fileRef = D206955A1A2F04F700D2880D /* 背景.png */; };
+		D20695631A2F04F700D2880D /* 返回.png in Resources */ = {isa = PBXBuildFile; fileRef = D206955B1A2F04F700D2880D /* 返回.png */; };
+		D20695641A2F04F700D2880D /* 黑色半透明.png in Resources */ = {isa = PBXBuildFile; fileRef = D206955C1A2F04F700D2880D /* 黑色半透明.png */; };
+		D20695671A2F0DAD00D2880D /* MenuItemButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D20695661A2F0DAD00D2880D /* MenuItemButton.m */; };
+		D20C7F9A1A315ADB007C983A /* example2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D20C7F971A315ADB007C983A /* example2.jpg */; };
+		D20C7F9B1A315ADB007C983A /* example3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D20C7F981A315ADB007C983A /* example3.jpg */; };
+		D20C7F9C1A315ADB007C983A /* example4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D20C7F991A315ADB007C983A /* example4.jpg */; };
+		D21221071A3053640099313A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D21221061A3053640099313A /* QuartzCore.framework */; };
+		D212210A1A30567C0099313A /* UIImageView+LBBlurredImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D21221091A30567C0099313A /* UIImageView+LBBlurredImage.m */; };
+		D212210C1A3059A40099313A /* example.png in Resources */ = {isa = PBXBuildFile; fileRef = D212210B1A3059A40099313A /* example.png */; };
+		D2EBA0BB1A303E1000F4A593 /* UIView+Screenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D2EBA0BA1A303E1000F4A593 /* UIView+Screenshot.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +70,40 @@
 		D20695341A2F011400D2880D /* WangyiNewsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WangyiNewsTests-Info.plist"; sourceTree = "<group>"; };
 		D20695361A2F011400D2880D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D20695381A2F011400D2880D /* WangyiNewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WangyiNewsTests.m; sourceTree = "<group>"; };
+		D20695421A2F01D900D2880D /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		D20695431A2F01D900D2880D /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		D20695451A2F01F200D2880D /* SubcribeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubcribeViewController.h; sourceTree = "<group>"; };
+		D20695461A2F01F200D2880D /* SubcribeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubcribeViewController.m; sourceTree = "<group>"; };
+		D20695481A2F022E00D2880D /* PictrueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictrueViewController.h; sourceTree = "<group>"; };
+		D20695491A2F022E00D2880D /* PictrueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictrueViewController.m; sourceTree = "<group>"; };
+		D206954B1A2F024700D2880D /* VedioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VedioViewController.h; sourceTree = "<group>"; };
+		D206954C1A2F024700D2880D /* VedioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VedioViewController.m; sourceTree = "<group>"; };
+		D206954E1A2F027100D2880D /* RadioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadioViewController.h; sourceTree = "<group>"; };
+		D206954F1A2F027100D2880D /* RadioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadioViewController.m; sourceTree = "<group>"; };
+		D20695511A2F02D400D2880D /* MenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuView.h; sourceTree = "<group>"; };
+		D20695521A2F02D400D2880D /* MenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuView.m; sourceTree = "<group>"; };
+		D20695551A2F04F700D2880D /* 下箭头.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下箭头.png"; sourceTree = "<group>"; };
+		D20695561A2F04F700D2880D /* 小箭头.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "小箭头.png"; sourceTree = "<group>"; };
+		D20695571A2F04F700D2880D /* 标题栏6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "标题栏6.png"; sourceTree = "<group>"; };
+		D20695581A2F04F700D2880D /* 标题栏7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "标题栏7.png"; sourceTree = "<group>"; };
+		D20695591A2F04F700D2880D /* 线.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "线.png"; sourceTree = "<group>"; };
+		D206955A1A2F04F700D2880D /* 背景.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "背景.png"; sourceTree = "<group>"; };
+		D206955B1A2F04F700D2880D /* 返回.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回.png"; sourceTree = "<group>"; };
+		D206955C1A2F04F700D2880D /* 黑色半透明.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "黑色半透明.png"; sourceTree = "<group>"; };
+		D20695651A2F0DAD00D2880D /* MenuItemButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuItemButton.h; sourceTree = "<group>"; };
+		D20695661A2F0DAD00D2880D /* MenuItemButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuItemButton.m; sourceTree = "<group>"; };
+		D20C7F961A315583007C983A /* WNdelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WNdelegate.h; sourceTree = "<group>"; };
+		D20C7F971A315ADB007C983A /* example2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = example2.jpg; sourceTree = "<group>"; };
+		D20C7F981A315ADB007C983A /* example3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = example3.jpg; sourceTree = "<group>"; };
+		D20C7F991A315ADB007C983A /* example4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = example4.jpg; sourceTree = "<group>"; };
+		D21221021A30532A0099313A /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		D21221041A30534E0099313A /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		D21221061A3053640099313A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D21221081A30567C0099313A /* UIImageView+LBBlurredImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+LBBlurredImage.h"; sourceTree = "<group>"; };
+		D21221091A30567C0099313A /* UIImageView+LBBlurredImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+LBBlurredImage.m"; sourceTree = "<group>"; };
+		D212210B1A3059A40099313A /* example.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = example.png; sourceTree = "<group>"; };
+		D2EBA0B91A303E1000F4A593 /* UIView+Screenshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Screenshot.h"; sourceTree = "<group>"; };
+		D2EBA0BA1A303E1000F4A593 /* UIView+Screenshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Screenshot.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D21221071A3053640099313A /* QuartzCore.framework in Frameworks */,
 				D20695161A2F011400D2880D /* CoreGraphics.framework in Frameworks */,
 				D20695181A2F011400D2880D /* UIKit.framework in Frameworks */,
 				D20695141A2F011400D2880D /* Foundation.framework in Frameworks */,
@@ -77,6 +134,10 @@
 		D20695071A2F011300D2880D = {
 			isa = PBXGroup;
 			children = (
+				D21221081A30567C0099313A /* UIImageView+LBBlurredImage.h */,
+				D21221091A30567C0099313A /* UIImageView+LBBlurredImage.m */,
+				D2EBA0B91A303E1000F4A593 /* UIView+Screenshot.h */,
+				D2EBA0BA1A303E1000F4A593 /* UIView+Screenshot.m */,
 				D20695191A2F011400D2880D /* WangyiNews */,
 				D20695321A2F011400D2880D /* WangyiNewsTests */,
 				D20695121A2F011400D2880D /* Frameworks */,
@@ -96,6 +157,9 @@
 		D20695121A2F011400D2880D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D21221061A3053640099313A /* QuartzCore.framework */,
+				D21221041A30534E0099313A /* Accelerate.framework */,
+				D21221021A30532A0099313A /* CoreImage.framework */,
 				D20695131A2F011400D2880D /* Foundation.framework */,
 				D20695151A2F011400D2880D /* CoreGraphics.framework */,
 				D20695171A2F011400D2880D /* UIKit.framework */,
@@ -107,10 +171,26 @@
 		D20695191A2F011400D2880D /* WangyiNews */ = {
 			isa = PBXGroup;
 			children = (
+				D20695541A2F04F700D2880D /* 图片 */,
 				D20695221A2F011400D2880D /* WNAppDelegate.h */,
 				D20695231A2F011400D2880D /* WNAppDelegate.m */,
 				D20695251A2F011400D2880D /* Images.xcassets */,
 				D206951A1A2F011400D2880D /* Supporting Files */,
+				D20C7F961A315583007C983A /* WNdelegate.h */,
+				D20695421A2F01D900D2880D /* NewsViewController.h */,
+				D20695431A2F01D900D2880D /* NewsViewController.m */,
+				D20695451A2F01F200D2880D /* SubcribeViewController.h */,
+				D20695461A2F01F200D2880D /* SubcribeViewController.m */,
+				D20695481A2F022E00D2880D /* PictrueViewController.h */,
+				D20695491A2F022E00D2880D /* PictrueViewController.m */,
+				D206954B1A2F024700D2880D /* VedioViewController.h */,
+				D206954C1A2F024700D2880D /* VedioViewController.m */,
+				D206954E1A2F027100D2880D /* RadioViewController.h */,
+				D206954F1A2F027100D2880D /* RadioViewController.m */,
+				D20695511A2F02D400D2880D /* MenuView.h */,
+				D20695521A2F02D400D2880D /* MenuView.m */,
+				D20695651A2F0DAD00D2880D /* MenuItemButton.h */,
+				D20695661A2F0DAD00D2880D /* MenuItemButton.m */,
 			);
 			path = WangyiNews;
 			sourceTree = "<group>";
@@ -142,6 +222,25 @@
 				D20695351A2F011400D2880D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D20695541A2F04F700D2880D /* 图片 */ = {
+			isa = PBXGroup;
+			children = (
+				D20C7F971A315ADB007C983A /* example2.jpg */,
+				D20C7F981A315ADB007C983A /* example3.jpg */,
+				D20C7F991A315ADB007C983A /* example4.jpg */,
+				D212210B1A3059A40099313A /* example.png */,
+				D20695551A2F04F700D2880D /* 下箭头.png */,
+				D20695561A2F04F700D2880D /* 小箭头.png */,
+				D20695571A2F04F700D2880D /* 标题栏6.png */,
+				D20695581A2F04F700D2880D /* 标题栏7.png */,
+				D20695591A2F04F700D2880D /* 线.png */,
+				D206955A1A2F04F700D2880D /* 背景.png */,
+				D206955B1A2F04F700D2880D /* 返回.png */,
+				D206955C1A2F04F700D2880D /* 黑色半透明.png */,
+			);
+			path = "图片";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,7 +319,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D206955F1A2F04F700D2880D /* 标题栏6.png in Resources */,
+				D20C7F9B1A315ADB007C983A /* example3.jpg in Resources */,
+				D20C7F9A1A315ADB007C983A /* example2.jpg in Resources */,
+				D20C7F9C1A315ADB007C983A /* example4.jpg in Resources */,
+				D20695611A2F04F700D2880D /* 线.png in Resources */,
+				D206955D1A2F04F700D2880D /* 下箭头.png in Resources */,
 				D206951E1A2F011400D2880D /* InfoPlist.strings in Resources */,
+				D20695641A2F04F700D2880D /* 黑色半透明.png in Resources */,
+				D20695631A2F04F700D2880D /* 返回.png in Resources */,
+				D20695621A2F04F700D2880D /* 背景.png in Resources */,
+				D212210C1A3059A40099313A /* example.png in Resources */,
+				D206955E1A2F04F700D2880D /* 小箭头.png in Resources */,
+				D20695601A2F04F700D2880D /* 标题栏7.png in Resources */,
 				D20695261A2F011400D2880D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,7 +351,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D20695441A2F01D900D2880D /* NewsViewController.m in Sources */,
+				D212210A1A30567C0099313A /* UIImageView+LBBlurredImage.m in Sources */,
+				D20695671A2F0DAD00D2880D /* MenuItemButton.m in Sources */,
+				D20695471A2F01F300D2880D /* SubcribeViewController.m in Sources */,
 				D20695201A2F011400D2880D /* main.m in Sources */,
+				D2EBA0BB1A303E1000F4A593 /* UIView+Screenshot.m in Sources */,
+				D206954A1A2F022E00D2880D /* PictrueViewController.m in Sources */,
+				D206954D1A2F024700D2880D /* VedioViewController.m in Sources */,
+				D20695531A2F02D400D2880D /* MenuView.m in Sources */,
+				D20695501A2F027100D2880D /* RadioViewController.m in Sources */,
 				D20695241A2F011400D2880D /* WNAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,10 +478,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: xinshu zhang (DHC96KU5NX)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WangyiNews/WangyiNews-Prefix.pch";
 				INFOPLIST_FILE = "WangyiNews/WangyiNews-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphonesimulator",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "eecf7ac9-4ae8-44b1-83d7-72a779080ebc";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -371,10 +498,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: xinshu zhang (DHC96KU5NX)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WangyiNews/WangyiNews-Prefix.pch";
 				INFOPLIST_FILE = "WangyiNews/WangyiNews-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphonesimulator",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "eecf7ac9-4ae8-44b1-83d7-72a779080ebc";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -438,6 +572,7 @@
 				D206953E1A2F011400D2880D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D206953F1A2F011400D2880D /* Build configuration list for PBXNativeTarget "WangyiNewsTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +581,7 @@
 				D20695411A2F011400D2880D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
